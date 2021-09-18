@@ -1,12 +1,11 @@
 .container {
-    max-width: 1000px;
+    max-width: 1170px;
     margin: 0 auto;
     background-color: #fff;
 }
 
 .list-group {
-    /* margin-left: 37.5vw; */
-    margin-top: 2vh;
+    margin-left: 37.5vw;
 }
 
 .list-group-item {

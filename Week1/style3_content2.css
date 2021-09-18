@@ -1,6 +1,6 @@
 .container {
     margin-top: 2vh;
-    margin-left: 4vw;
+    margin-left: 3vw;
     font-size: 0.8rem;
 }
 
@@ -8,9 +8,9 @@ h5 {
     margin-bottom: 2vw;
 }
 
-hr {
+/* hr {
     margin-right: 8.5vw;
-}
+} */
 
 .title {
     color: black;
