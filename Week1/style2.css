@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-size: 62.5%;
+}
+
+.main {
+    background-color: rgb(252, 239, 244);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 500px;
+    min-height: 80px;
+    padding: 32px 24px;
+    text-align: center;
+    background: rgb(188, 229, 240);
+    border-radius: 2px;
+    margin: 24px;
+    align-self: center; /* nằm giữa màn hình */
+    box-shadow: 0 2px 5px 0 rgba(5, 0, 0, 0.1);
+}
+
+.form .heading {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.form-label {
+    font-weight: 700;
+    line-height: 35px;
+    font-size: 1.4rem;
+    width: 70px;
+}
+
+.radio-label {
+    font-weight: 700;
+    line-height: 320x;
+    font-size: 1.4rem;
+    width: 70px;
+}
+
+.checkbox {
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 1.4rem;
+    width: 80px;
+}
+
+.form-control {
+    height: 30px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+    width: 300px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 30px;
+}
+
+.btn {
+    outline: none;
+    padding: 5px 12px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+.btn + .btn {
+    margin-left: 10px;
+}

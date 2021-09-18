@@ -1,0 +1,30 @@
+.list-group {
+    margin-left: 37.5vw;
+    margin-top: 2vh;
+}
+
+.list-group-item {
+    border-block-style: dashed;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.modify {
+    color: rgb(33, 127, 189);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.item:hover{
+    background-color: rgb(33, 127, 189);
+    cursor: pointer;
+    color: white;
+}
+
+.item:hover > a > span {
+    color: white;
+}
+
+.item:current > a > span {
+    color: rgb(33, 127, 189);
+}

@@ -1,0 +1,29 @@
+.container {
+    margin-top: 2vh;
+    margin-left: 4vw;
+    font-size: 0.8rem;
+}
+
+hr {
+    margin-right: 8.5vw;
+}
+
+.title {
+    color: black;
+}
+
+h5.title:hover {
+    color: rgb(33, 127, 189);
+    cursor: pointer;
+}
+
+.datetime {
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+}
+
+.content {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}

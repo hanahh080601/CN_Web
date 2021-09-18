@@ -1,0 +1,57 @@
+.container {
+    margin-top: 2vh;
+    margin-left: 4vw;
+    font-size: 0.8rem;
+}
+
+h5 {
+    margin-bottom: 2vw;
+}
+
+hr {
+    margin-right: 8.5vw;
+}
+
+.title {
+    color: black;
+}
+
+h5.title:hover {
+    color: rgb(33, 127, 189);
+    cursor: pointer;
+}
+
+.datetime {
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+}
+
+.content {
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+.img-text {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-right: 8.5vw;
+}
+
+img {
+    width: 15vw;
+    height: 10vw;
+}
+
+.text {
+    padding-left: 2vw;
+}
+
+.title:hover {
+    color: rgb(33, 127, 189);
+    cursor: pointer;
+}
+
+.content {
+    font-size: 0.8rem;
+}

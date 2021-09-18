@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 8px;
+    margin-left: 0.5vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
