@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <title>Form2</title>
+</head>
+<style>
+    * {
+        font-size: larger;
+        background-color: rgb(252, 239, 244);
+        font-family: 'Patua One', cursive;
+        color: rgb(192, 85, 85);
+    }
+</style>
+<script>
+    function AddPrice(amount) {
+        with(this) {
+            price = amount;
+        }
+    }
+
+    function Book(title, author, content) {
+        this.title = title;
+        this.author = author;
+        this.content = content;
+        this.price = 0;
+        this.AddPrice = AddPrice;
+    }
+</script>
+<body>
+    <script>
+        var MyBook = new Book("Java", "Sun", "OOP");
+        MyBook.AddPrice(500);
+        document.write("Book title is: ", MyBook.title + "<br>");
+        document.write("Book author is: ", MyBook.author + "<br>");
+        document.write("Book content is: ", MyBook.content + "<br>");
+        document.write("Book price is: ", MyBook.price + "<br>");
+    </script>
+</body>
+</html>

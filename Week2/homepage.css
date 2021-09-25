@@ -1,0 +1,34 @@
+body {
+    margin: 0 auto;
+    padding: 5vw 5vh;
+    background-color: rgb(255, 209, 172);
+    font-family: 'Patua One', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+}
+
+.text {
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.text1 {
+    color: rgb(145, 10, 0);
+    font-size: xx-large;
+    margin-bottom: 7vh;
+}
+
+.text2 {
+    color: rgb(133, 20, 12);
+    font-size: large;
+}

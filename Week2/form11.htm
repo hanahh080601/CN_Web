@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Form1</title>
+</head>
+<body>
+
+    <script>
+        function check () {
+            let name = document.getElementById('fullname').value;
+            let pass = document.getElementById('password').value;
+            if(name != "" && pass != "")
+            {
+                alert("Bạn đã đăng kí thành công !");
+                document.getElementById('fullname').value = ""
+                document.getElementById('password').value = ""
+            }
+            else {
+                alert("Vui lòng nhập đầy đủ username và password!")
+            }
+        }
+        
+    </script>
+
+    <div class="main">
+        <form class="form" id="form-1">
+            <h3 class="heading">Đăng nhập</h3>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tài khoản</label>
+                <input type="text" id="fullname" name="fullname"class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input type="password" id="password" name="password" class="form-control">
+            </div>
+
+            <button class="btn" type="button" onclick="check()">Đăng kí</button>
+            <input class="btn" type="reset"></input>
+        </form>
+    </div>
+</body>
+</html>

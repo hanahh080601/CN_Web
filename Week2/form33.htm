@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <form class="form" id="form-1">
+            
+            <div class="form-group">
+                <label class="form-label">Text 1</label>
+                <input type="text" id="text1" name="text1" class="form-control" onblur="change()">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Text 2</label>
+                <input type="text" id="text2" name="text2" class="form-control">
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        function change () {
+            var t1 = document.getElementById('text1').value;
+            var t2 = '';
+            for (var i = 0; i < t1.length; i++) 
+            {
+                if (t1[i] == t1[i].toUpperCase()) {
+                    t2 += t1[i].toLowerCase();
+                } 
+                else {
+                    t2 += t1[i].toUpperCase();
+                }
+            }
+            document.getElementById('text2').value = t2;
+        };
+
+        window.onload = document.getElementById('text1').focus()
+    </script>
+
+</body>
+</html>
