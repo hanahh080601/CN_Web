@@ -7,6 +7,7 @@
 
 .main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 500;
@@ -14,6 +15,17 @@
     min-height: 20vh;
     background-color:rgb(231, 175, 156);
     border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .btn {
